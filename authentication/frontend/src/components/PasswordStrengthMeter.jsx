@@ -65,7 +65,7 @@ const PasswordStrengthMeter = ({ password }) => {
 						key={index}
 						className={`h-1 w-1/4 rounded-full transition-colors duration-300 
                 ${index < strength ? getColor(strength) : "bg-gray-600"}
-              `}
+                `}
 					/>
 				))}
 			</div>
