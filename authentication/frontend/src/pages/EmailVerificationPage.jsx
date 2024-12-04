@@ -100,7 +100,7 @@ return (
 				</form>
 			</motion.div>
 		</div>
-  )
+)
 }
 
 export default EmailVerificationPage
